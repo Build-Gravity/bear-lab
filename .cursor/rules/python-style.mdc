@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Always use strict typing. If you are presented with linter errors that are due to the library lacking type hints, add #type ignore
+Add comments, but keep them succinct.
+Remember to implement tests before their corresponding functionality. Keep tests simple but try to make them comprehensive.
+Try to find files by listing the items rather than assume.
+Refer to README.md in the root folder for directory information. 
+Try to solve things in the simplest way possible; avoid creating unnecessary code or changes.
+
