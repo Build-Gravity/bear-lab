@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: cftr_analyzer
+Version: 0.1.0
+Summary: A Python script for CFTR channel activity assay analysis.
+Project-URL: Homepage, https://github.com/Build-Gravity/bear-lab
+Project-URL: Bug Tracker, https://github.com/Build-Gravity/bear-lab/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+# CFTR Channel Activity Assay Analysis
+
+This project provides a Python script for analyzing multi-block experimental data from CFTR channel activity assays.
+The primary goal is to parse XLSX files, identify biphasic fluorescence changes in "activation" blocks,
+and calculate the slopes of these two phases for each well.
+
+## Setup
+
+1.  Ensure you have Python 3.8+ installed.
+2.  Clone this repository (if applicable).
+3.  Navigate to the project directory.
+4.  Create and activate a virtual environment:
+    ```bash
+    python -m venv venv
+    # On Windows: .\venv\Scripts\activate
+    # On macOS/Linux: source venv/bin/activate
+    ```
+5.  Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ``` 
