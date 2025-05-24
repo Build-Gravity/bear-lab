@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cftr_analyzer"
+version = "0.1.0"
+description = "A Python script for CFTR channel activity assay analysis."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Or your chosen license
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas",
+    "openpyxl",
+    "matplotlib",
+    "scipy",
+    # pytest is a dev dependency, will add it to an optional group later if needed
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/bear-lab" # Replace with your actual URL if you have one
+"Bug Tracker" = "https://github.com/yourusername/bear-lab/issues" # Replace
+
+[tool.setuptools.packages.find]
+where = ["src"] 
