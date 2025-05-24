@@ -1,0 +1,7 @@
+venv/
+plan.md
+input_data/
+output_data/
+output_plots/
+src/__pycache__/
+tests/__pycache__/
