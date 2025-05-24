@@ -32,8 +32,9 @@ This guide will help you run the CFTR channel activity assay analysis.
 ### 2. Setting Up the Project
 
 1.  **Download the Code:**
-    *   If you received the code as a ZIP file, find the file and unzip it to a folder on your computer (e.g., in your `Documents` or `Downloads` folder).
-    *   If the code is hosted online (like on GitHub), you might need to use a "Download ZIP" option or use a program like GitHub Desktop to get the files.
+    *   The project code is hosted on GitHub. You will need to clone the repository to your local machine.
+    *   If you have Git installed, you can use the command `git clone <repository_url>` in your terminal, replacing `<repository_url>` with the actual URL of the GitHub repository.
+    *   Alternatively, you can use a program like GitHub Desktop to clone the repository.
 
 2.  **Open the Terminal (Command Prompt):**
     *   This is a program that lets you type commands.
